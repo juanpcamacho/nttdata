@@ -1,2 +1,3 @@
 #!/bin/bash
-pm2 start java --name "JAVAWebApp" --cwd /myapp/ --args [-jar=target/myapp-1.0.jar] -- start
+cd /myapp
+sudo /usr/bin/java -jar target/myapp-1.0.jar
