@@ -1,2 +1,2 @@
 #!/bin/bash
-sh /myapp/scripts/ApplicationStart.sh
+pm2 start /myapp/scripts/app.json
