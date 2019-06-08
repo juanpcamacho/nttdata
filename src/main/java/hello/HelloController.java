@@ -8,12 +8,12 @@ public class HelloController {
 
     @RequestMapping("/")
         public String index() {
-            return "This is the index!\n";
+            return "Hello, World 1!\n";
         }
     @RequestMapping("/hello")
         public String index2() {
 
-            return "Hello, World!\n";
+            return "Hello, World 1!\n";
         }
 
 }
