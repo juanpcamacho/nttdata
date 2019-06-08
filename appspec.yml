@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /timeoff-management 
+    destination: /myapp 
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
