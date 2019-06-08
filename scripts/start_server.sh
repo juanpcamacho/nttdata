@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /myapp
-sh scripts/myapp-start.sh
+pm2 start java -jar target/myapp-1.0.jar --name "JAVAWebApp" --cwd /myapp/ -- start
